@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Vishal Pal </span><br>From Maharashtra.</h1>
+            </div>
+        </div>
+    </div>
+    <!-----about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, qui maxime odit architecto
+                        reprehenderit, nam, doloribus facilis laboriosam minima dicta illum. Vero quaerat quasi
+                        dignissimos aspernatur architecto, nam dolorem placeat!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack Developer</span><br>Web Developer</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            <li><span>UI/UX Designer</span><br>Building Interface</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Full Stack Developer Training in Skill Hub IT Classes.</li>
+                            <li><span>2023-2026</span><br>Complete My Graduation Tho\rough BCS.</li>
+                            <li><span>2023-2024</span><br>Intership At Google Company.</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>12th Pass From Shivchhatrapati College.</li>
+                            <li><span>2026</span><br>BCS From Kohinoor College Aurangabad.</li>
+                            <li><span>2029</span><br>MCS From XYZ Institute.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------services----------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Full-Stack Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus laboriosam
+                        reiciendis dicta provident rem corrupti. Debitis iure itaque sint quam asperiores provident
+                        officia ab in ipsa voluptas? Inventore, odit.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>App Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus laboriosam
+                        reiciendis dicta provident rem corrupti. Debitis iure itaque sint quam asperiores provident
+                        officia ab in ipsa voluptas? Inventore, odit.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus laboriosam
+                        reiciendis dicta provident rem corrupti. Debitis iure itaque sint quam asperiores provident
+                        officia ab in ipsa voluptas? Inventore, odit.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------portfolio----------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from Playstore </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="work2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from Playstore </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from Playstore </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Contact------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>vp461365@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 8080039540</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vishal.vp.9862"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/vishu_9x._/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vishal-pal-913094250/"><i class="fab fa-linkedin"></i></a>
+                        <a href="c:\Users\Lenovo\Documents\Dipak Singh.pdf" class="btn btn2">Download CV</a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Sumbit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+
+            <p>Copyright Made by <i class="fas fa-heart"></i> Vishal Pal :) .</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
